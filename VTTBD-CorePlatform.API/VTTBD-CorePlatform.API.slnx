@@ -1,3 +1,6 @@
 <Solution>
   <Project Path="VTTBD-CorePlatform.API/VTTBD-CorePlatform.API.csproj" />
+  <Project Path="VTTBD-CorePlatform.Application/VTTBD-CorePlatform.Application.csproj" Id="b2de86ae-cda3-439e-9541-c1b8a7493351" />
+  <Project Path="VTTBD-CorePlatform.Domain/VTTBD-CorePlatform.Domain.csproj" Id="1c19279a-3f3b-4c9e-a9d9-e1aeec9ac361" />
+  <Project Path="VTTBD-CorePlatform.Infrastructures/VTTBD-CorePlatform.Infrastructures.csproj" Id="e4c89678-78ee-4eed-8345-b54400a8f45d" />
 </Solution>
