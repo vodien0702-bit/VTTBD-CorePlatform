@@ -5,6 +5,7 @@ using System.Reflection.Emit;
 using VTTBD_CorePlatform.Domain.Common.Events;
 using VTTBD_CorePlatform.Domain.Entities.Identities;
 using VTTBD_CorePlatform.Domain.Entities.StudentManagement;
+using VTTBD_CorePlatform.Domain.Entities.System.Categories;
 
 namespace VTTBD_CorePlatform.Infrastructures.Persistence.DbContext;
 
@@ -17,6 +18,8 @@ public class ApplicationDbContext : Microsoft.EntityFrameworkCore.DbContext
 
     public DbSet<User> Users => Set<User>();
     public DbSet<Student> Students => Set<Student>();
+
+    public DbSet<Country> Countries => Set<Country>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
