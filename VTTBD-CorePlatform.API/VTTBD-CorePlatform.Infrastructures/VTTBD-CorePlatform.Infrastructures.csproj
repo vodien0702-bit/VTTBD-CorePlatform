@@ -13,6 +13,7 @@
 
 	<!-- THAM CHIẾU SANG PROJECT DOMAIN -->
 	<ItemGroup>
+		<ProjectReference Include="..\VTTBD-CorePlatform.Application\VTTBD-CorePlatform.Application.csproj" />
 		<ProjectReference Include="..\VTTBD-CorePlatform.Domain\VTTBD-CorePlatform.Domain.csproj" />
 	</ItemGroup>
 

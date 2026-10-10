@@ -21,6 +21,9 @@ public class ApplicationDbContext : Microsoft.EntityFrameworkCore.DbContext
 
     public DbSet<Country> Countries => Set<Country>();
 
+    public DbSet<Semester> Semesters => Set<Semester>();
+    public DbSet<RegisteredCourse> RegisteredCourses => Set<RegisteredCourse>();
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
